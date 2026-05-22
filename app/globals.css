@@ -52,7 +52,7 @@ html {
 }
 
 .animate-marquee-reverse {
-  animation: marqueeReverse 40s linear infinite;
+  animation: marqueeReverse 100s linear infinite;
 }
 
 

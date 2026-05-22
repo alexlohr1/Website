@@ -48,18 +48,18 @@ html {
 }
 
 .animate-marquee {
-  animation: marquee 30s linear infinite;
+  animation: marquee 100s linear infinite;
 }
 
 .animate-marquee-reverse {
-  animation: marqueeReverse 30s linear infinite;
+  animation: marqueeReverse 40s linear infinite;
 }
 
 
 
 @keyframes scrollReviews {
   0% {
-    transform: translateX(-50%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-50%);
@@ -67,5 +67,6 @@ html {
 }
 
 .animate-scrollReviews {
-  animation: scrollReviews 20s linear infinite;
+  animation: scrollReviews 100s linear infinite;
 }
+

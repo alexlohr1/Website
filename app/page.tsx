@@ -60,7 +60,7 @@ export default function SimplyCollectiblesLanding() {
       <a href="#home" className="hover:text-[#1E52C2] transition">Home</a>
       <a href="#about" className="hover:text-[#1E52C2] transition">About</a>
       <a href="#info" className="hover:text-[#1E52C2] transition">Info</a>
-      <a href="#drops" className="hover:text-[#1E52C2] transition">Drops</a>
+      <a href="#drops" className="hover:text-[#1E52C2] transition">Community</a>
       <a href="#visit" className="hover:text-[#1E52C2] transition">Visit</a>
       <a href="#contact" className="hover:text-[#1E52C2] transition">Contact</a>
     </div>
@@ -111,22 +111,76 @@ export default function SimplyCollectiblesLanding() {
 
       </section>
 
-      {/* ABOUT */}
-      <SectionDivider />
-      <section id="about" className="py-24 px-6 max-w-5xl mx-auto">
-        <h2 className="text-3xl font-semibold mb-6">About the Store</h2>
+<section id="about" className="py-28 px-6 bg-white">
 
-        <p className="text-gray-700 leading-relaxed text-lg">
-          Simply Collectibles is a Miami-based hobby store focused on trading
-          cards and collector culture. It functions as a community hub where
-          collectors buy, trade, and discover new sealed product and singles.
-        </p>
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-        <p className="mt-4 text-gray-700 leading-relaxed text-lg">
-          The store emphasizes authenticity, fair market pricing, and a
-          welcoming environment for both beginners and serious collectors.
-        </p>
-      </section>
+    {/* LEFT: TEXT */}
+    <div>
+
+      <h2 className="text-4xl font-semibold mb-6 leading-tight">
+        Built for Collectors. <br />
+        Powered by Community.
+      </h2>
+
+      <p className="text-gray-700 text-lg leading-relaxed">
+        Simply Collectibles is a Miami-based hobby store centered around
+        trading cards, sealed product, and collector culture. It’s more than
+        a shop — it’s a meeting point for people who actually live the hobby.
+      </p>
+
+      <p className="mt-5 text-gray-700 text-lg leading-relaxed">
+        Whether you’re chasing Pokémon, NBA slabs, NFL rookies, or sealed
+        drops, the store focuses on authenticity, fair pricing, and a space
+        where collectors can actually connect.
+      </p>
+
+      {/* MINI HIGHLIGHTS */}
+
+    </div>
+
+    {/* RIGHT: VISUAL CARD STACK */}
+    <div className="relative">
+
+      {/* BACK CARD */}
+      <div className="absolute top-6 left-6 w-full h-full rounded-3xl bg-[#1E52C2]/10 border" />
+
+      {/* FRONT CARD */}
+      <div className="relative bg-white rounded-3xl border shadow-xl p-8">
+
+        <h3 className="text-xl font-semibold mb-6">
+          What makes us different
+        </h3>
+
+        <div className="space-y-5">
+
+          <div>
+            <p className="font-semibold text-[#1E52C2]">Trading Culture First</p>
+            <p className="text-gray-600 text-sm">
+              Built around collectors, not just transactions.
+            </p>
+          </div>
+
+          <div>
+            <p className="font-semibold text-[#FFB500]">Real Market Pricing</p>
+            <p className="text-gray-600 text-sm">
+              No inflated nonsense — transparent value.
+            </p>
+          </div>
+
+          <div>
+            <p className="font-semibold text-black">Community Hub</p>
+            <p className="text-gray-600 text-sm">
+              People come to trade, talk, and stay.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
       {/* INFO */}
       <SectionDivider />
@@ -224,6 +278,58 @@ export default function SimplyCollectiblesLanding() {
   className="w-[320px] h-[400px] rounded-2xl border bg-white"
   loading="lazy"
 />
+      {/* DUPLICATE FOR SMOOTH LOOP */}
+      <iframe
+  src="https://www.instagram.com/p/DYDSYTiEbmW/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXpq5q3j_86/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXXpSO5BkrE/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DYfbBuZxv0y/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DYSn8N8y-N1/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      {/* DUPLICATE FOR SMOOTH LOOP */}
+      <iframe
+  src="https://www.instagram.com/p/DYDSYTiEbmW/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXpq5q3j_86/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXXpSO5BkrE/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DYfbBuZxv0y/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DYSn8N8y-N1/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
     </div>
   </div>
 
@@ -258,6 +364,58 @@ export default function SimplyCollectiblesLanding() {
 />
 
       {/* DUPLICATE FOR SMOOTH LOOP */}
+      <iframe
+  src="https://www.instagram.com/p/DYNqqVRvJDx/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DYKbzKJnJD_/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DX97iugMHjw/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXhbu3Zj8LN/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXcy1ibDw8l/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+{/* DUPLICATE FOR SMOOTH LOOP */}
+      <iframe
+  src="https://www.instagram.com/p/DYNqqVRvJDx/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DYKbzKJnJD_/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DX97iugMHjw/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXhbu3Zj8LN/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+      <iframe
+  src="https://www.instagram.com/p/DXcy1ibDw8l/embed"
+  className="w-[320px] h-[400px] rounded-2xl border bg-white"
+  loading="lazy"
+/>
+{/* DUPLICATE FOR SMOOTH LOOP */}
       <iframe
   src="https://www.instagram.com/p/DYNqqVRvJDx/embed"
   className="w-[320px] h-[400px] rounded-2xl border bg-white"
@@ -332,6 +490,46 @@ export default function SimplyCollectiblesLanding() {
         <ReviewCard quote="You can tell they actually care about the hobby." name="Sophia L." />
       </div>
 
+      {/* DUPLICATE SET */}
+      <div className="pt-0">
+        <ReviewCard quote="Best Pokémon selection in Miami. Always something new." name="Alex M." />
+      </div>
+
+      <div className="pt-10">
+        <ReviewCard quote="Feels like a real collector community, not just a store." name="Jordan T." />
+      </div>
+
+      <div className="pt-0">
+        <ReviewCard quote="Fair pricing and honest staff every time I visit." name="Chris R." />
+      </div>
+
+      <div className="pt-8">
+        <ReviewCard quote="Insane sports card selection, especially NBA slabs." name="Daniel K." />
+      </div>
+
+      <div className="pt-4">
+        <ReviewCard quote="You can tell they actually care about the hobby." name="Sophia L." />
+      </div>
+      {/* DUPLICATE SET */}
+      <div className="pt-0">
+        <ReviewCard quote="Best Pokémon selection in Miami. Always something new." name="Alex M." />
+      </div>
+
+      <div className="pt-10">
+        <ReviewCard quote="Feels like a real collector community, not just a store." name="Jordan T." />
+      </div>
+
+      <div className="pt-0">
+        <ReviewCard quote="Fair pricing and honest staff every time I visit." name="Chris R." />
+      </div>
+
+      <div className="pt-8">
+        <ReviewCard quote="Insane sports card selection, especially NBA slabs." name="Daniel K." />
+      </div>
+
+      <div className="pt-4">
+        <ReviewCard quote="You can tell they actually care about the hobby." name="Sophia L." />
+      </div>
       {/* DUPLICATE SET */}
       <div className="pt-0">
         <ReviewCard quote="Best Pokémon selection in Miami. Always something new." name="Alex M." />

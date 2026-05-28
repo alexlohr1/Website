@@ -122,12 +122,12 @@ export default function AutotronicsLanding() {
             className="w-56 md:w-[400px] mx-auto mb-8 scale-200"
           />
 
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
+          {/*<h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
             Elevate Your Journey
             <span className="block text-[#c90000]">
               With Expert Vehicle Customization
             </span>
-          </h1>
+          </h1>*/}
 
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
             Miami’s trusted specialists in window tinting, ceramic coatings,

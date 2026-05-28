@@ -87,6 +87,7 @@ export default function AutotronicsLanding() {
             <a href="#home" className="hover:text-[#c90000] transition">Home</a>
             <a href="#about" className="hover:text-[#c90000] transition">About</a>
             <a href="#services" className="hover:text-[#c90000] transition">Services</a>
+            <a href="#pics" className="hover:text-[#c90000] transition">Latest</a>
             <a href="#reviews" className="hover:text-[#c90000] transition">Reviews</a>
             <a href="#visit" className="hover:text-[#c90000] transition">Visit</a>
             <a href="#contact" className="hover:text-[#c90000] transition">Contact</a>
@@ -272,7 +273,7 @@ export default function AutotronicsLanding() {
 
 
 {/* INSTAGRAM */}
-<section className="py-28 bg-black overflow-hidden">
+<section id="pics" className="py-28 bg-black overflow-hidden">
 
   <div className="max-w-7xl mx-auto px-6 mb-12">
     <h2 className="text-4xl font-bold mb-4">
@@ -348,7 +349,7 @@ export default function AutotronicsLanding() {
 
 
 {/* TESTIMONIALS */}
-<section className="py-32 bg-[#090909] overflow-hidden">
+<section id="reviews" className="py-32 bg-[#090909] overflow-hidden">
 
   <div className="max-w-7xl mx-auto px-6 mb-16 text-center">
 
